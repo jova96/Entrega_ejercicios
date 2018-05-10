@@ -12,6 +12,7 @@ int main(void)
 	espectral_t max_clase = CLASE_O ;
     int temperatura_ingresada;
     int vtr_temp_limite_max_clases[] = { MIN_TEMP_CLASES,
+
 									     MAX_TEMP_CLASE_M,
 									     MAX_TEMP_CLASE_K,
 									     MAX_TEMP_CLASE_G,
@@ -19,6 +20,7 @@ int main(void)
 									     MAX_TEMP_CLASE_A,
 									     MAX_TEMP_CLASE_B,
 									     MAX_TEMP_CLASE_O };
+
 
     puts(MSJ_INGRESO_TEMP);
 	if( scanf("%d", &temperatura_ingresada) != 1 ){
